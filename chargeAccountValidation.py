@@ -1,6 +1,6 @@
 # This program asks the user to input an account number and tells the user
 # whether the account number is in the list or not.
-
+#add extra comments
 def main():
     infile=open("charge_accounts.txt") #Open file for reading.
     useraccounts=infile.readlines() #Read the contents of file into a list.
